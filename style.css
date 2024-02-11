@@ -29,16 +29,9 @@ img {
 }
 
 nav {
-    width: 100%;
-    max-width: 1200px;
     height: 80px;
     display: flex;
-    margin: 0 auto;
-    padding:0 -30px;
 }
-
-
-
 
 /* Navigation */
 
@@ -111,28 +104,26 @@ nav {
     text-decoration:none
 }
 
-header {
-    height: calc(100vh - 80px);
+.row {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#landing {
+    height: (100vh - 80px);
 }
 
 
 /* header */
 
+
 .header__container {
     width:100%;
     display: flex;
     margin-top: 50px;
-}
-
-.row {
-    width: 100%;
-    height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header__description {
-    width: 55%;
 }
 
 .header__description {
@@ -160,19 +151,22 @@ form {
     border: 2px solid #82ff63;
     border-radius: 36px;
     width: 100%;
-    max-width: 600px;
+    max-width: 80%;
     height: 70px;
     display: flex;
     justify-content: space-around;
     padding-right: 16px;
-    align-items: center;
-    margin: 0 auto;  
+    align-items: center;  
 }
 
 .input {
     font-size: 16px;
-    padding-right: 20px;
+    padding:21px;
     display: flex;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border:none;
+    outline: none;
 }
 
 .button {
@@ -181,7 +175,7 @@ border: 2px solid #82ff63;
 border-radius: 36px;
 color: white;
 padding: 15px 25px;
-margin-right: -30px;
+margin-right: -17px;
 font-size: 20px;
 font-weight: bold;
 cursor: pointer;
@@ -202,9 +196,90 @@ cursor: pointer;
     margin-right: 40px;
 }
 
+.pic__logo{
+    width: 100%;
+    max-width: 80%;
+}
+
 .header__img {
     width: 100%;
     max-width: 1200px;
+}
+
+
+/* section1 */
+
+.description1__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.description1 {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.description1__h4 {
+    padding: 16px 0;
+}
+.description1__h1 {
+    font-size: 50px;
+}
+
+
+.description1__p {
+    width: 100%;
+    max-width: 500px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    
+}
+
+
+.img1 {
+    width: 100%;
+    max-width: 70px;
+}
+
+.description__img1{
+    border: 2px solid grey;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.service__infos {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.s {
+    padding-top: 10px;
 }
 
 
