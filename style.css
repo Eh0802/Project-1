@@ -709,8 +709,159 @@ margin-top: 16px;
 }
 
 
+/*sectio 8 */
+
+.container8 {
+    width: 100%;
+    max-width: 1200px;
+    height: 250px;
+    background-color: #82ff63;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    margin: 150px 0;
+}
+
+.section8__description1 {
+    width: 100%;
+    max-width:50%;
+    padding-left: 30px;
+    font-size:25px;
+    color: white;
+}
+
+.description2__1 {
+    width: 100%;
+    max-width: 200px;
+}
+
+.button8{
+    width: 100%;
+    max-width: 150px;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 24px 16px;
+}
+
+.footer__container {
+    width: 100%;
+    background-color: #82ff63;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__container--tag {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer__links {
+    width: 100%;
+    padding: 8px 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer__tag{
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.footer__link {
+    padding-top: 10px;
+    color: white;
     
+}
+
+.aa{
+
+    color: white;
+}
+
+.footer8 {
+    width: 100%;
+    display: flex;
+}
+
+.footer2__container {
+    width: 100%;
+    height: 180px;
+    background-color: #82ff63;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2__section {
+    width: 100%;
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.footter__treact {
+    padding:4px 10px;
+    margin-right:1000px;
+}
+
+.t1 {
+    margin-right: 10px;
+    color: white;
+}
+
+.t {
+    margin: 5px;
+    background-color: white;
+    color: #82ff63;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+
+.footer2__s2 {
+    width: 100%;
+    font-size: 15px;
+    color: white;
+}
     
+
+.iii {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto;
+    padding-right: 4px;
+    
+}
+
+.fa {
+    width: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+   
+}
+.footer__i {
+    
+    padding: 4px;
+} 
+
+
 
 
 
