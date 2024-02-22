@@ -564,6 +564,16 @@ cursor: pointer;
     line-height: 1.5;
 }
 
+.fai {
+    background-color: #22c701;
+    border-radius: 10px;
+}
+
+.bag {
+    background-color: pink;
+    border-radius: 10px;
+}
+
 .section4__para1{
     width: 100%;
 }
