@@ -1582,6 +1582,10 @@ margin-top: 16px;
 
 @media (max-width: 460px) {
 
+    .description1__h1 {
+        font-size: 45px;
+    }
+
     .section2__description--4 {
         width:100%;
         max-width: 100%;
@@ -1595,6 +1599,32 @@ margin-top: 16px;
     }
 
 }
+
+@media (max-width:400px) {
+    .nav__container,
+.header__container,
+.section2__container,
+.section4__container,
+.section6__container,
+.container8,.description1__container,
+.section3__container, 
+.section5__container--top,
+.section5__container--bottom,
+ .section7__container,
+ .footer__container,
+ .footer2__container {
+    width: 100%;
+    max-width: 90%;
+ }
+
+ .description1__h1,
+ .section2__h1
+  {
+    font-size: 30px;
+ }
+
+}
+
 
 
 
