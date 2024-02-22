@@ -146,6 +146,10 @@ button:active {
 
 }
 
+.primary:hover{
+    background-color: rgb(197, 196, 196);
+}
+
 .nav__link--primary:hover {
     text-decoration:none;
     background-color: #22c701;
@@ -162,6 +166,14 @@ button:active {
     color: #82ff63;
     margin-top: 16px;
     padding-right: 16px;
+}
+
+.btn__menu:hover{
+    background-color: white;
+}
+
+.btn__menu--close:hover {
+    background-color: #82ff63;
 }
 
 .menu__backdrop {
