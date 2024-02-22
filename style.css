@@ -5,6 +5,7 @@
     margin:0%;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    border:2px solid red
 }
 
 ul {
@@ -481,6 +482,18 @@ cursor: pointer;
 }
 .s3 {
     padding: 16px 0;
+}
+
+.section3__description1 {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section3__description2 {
+    width: 100%;
+    max-width: 80%;
+    margin:0 auto
 }
 
 .section3__description3 {
